@@ -4,7 +4,7 @@
 
 # 홈 화면에서 보여지는 프로모션(배너) 데이터 요청
 
- - GET /api/home/promotion
+ - GET /home/promotion
 
  # 홈 화면에서 보여지는 프로모션(배너) 데이터 응답
 

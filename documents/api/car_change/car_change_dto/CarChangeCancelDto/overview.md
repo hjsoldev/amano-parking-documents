@@ -4,7 +4,7 @@
 
 # 치량 변경 취소 요청
 
- - POST /api/car-change/cancel
+ - POST /car-change/cancel
 
  - 요청 데이터 설명
 

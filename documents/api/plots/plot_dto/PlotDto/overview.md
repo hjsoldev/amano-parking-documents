@@ -4,7 +4,7 @@
 
 # 주차장 목록 요청(지도 범위 기반 조회)
 
- - POST /api/plots
+ - POST /plots
 
  - 요청 파라미터 설명
 
@@ -28,7 +28,7 @@
 
  # 주차장 목록 요청(줌 레벨 기반 조회)
 
- - POST /api/plots/zoom
+ - POST /plots/zoom
 
  - 요청 파라미터 설명
 
@@ -50,7 +50,7 @@
 
  # 주차장 검색
 
- - POST /api/plots/keyword
+ - POST /plots/keyword
 
  - 요청 파라미터 설명
 

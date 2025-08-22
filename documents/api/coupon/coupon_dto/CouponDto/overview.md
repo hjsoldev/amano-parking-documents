@@ -5,10 +5,18 @@
 # 쿠폰 목록 요청
 
  ## 쿠폰 사용 가능 목록 요청
- - GET /api/coupon/available
 
- ## 쿠폰 만료 목록 요청
- - GET /api/coupon/expired
+ - POST /coupon
+
+ - 요청 파라미터 설명
+
+ |이름|타입|설명|
+ |-|-|-|
+ |status|string|쿠폰 상태|
+
+ - status 값
+   - available: 사용 가능
+   - expired: 만료
 
  # 쿠폰 목록 응답
 

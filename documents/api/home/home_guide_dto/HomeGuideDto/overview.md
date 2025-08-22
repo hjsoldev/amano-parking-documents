@@ -4,7 +4,7 @@
 
 # 홈 화면에서 보여지는 가이드 데이터 요청
 
- - GET /api/home/guide
+ - GET /home/guide
 
  # 홈 화면에서 보여지는 가이드 데이터 응답
 

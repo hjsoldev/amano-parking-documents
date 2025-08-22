@@ -1,10 +1,10 @@
-# Overview for `CouponRegistrationRequestDto`
+# Overview for `CouponRegistrationDto`
 
 ## Description
 
 # 쿠폰 등록 요청
 
- - POST /api/coupons/register
+ - POST /coupons/register
 
  - 요청 파라미터 설명
 
@@ -46,7 +46,7 @@
 
 ## Dependencies
 
-- _$CouponRegistrationRequestDto
+- _$CouponRegistrationDto
 
 ## Constructors
 

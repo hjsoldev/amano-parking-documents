@@ -4,7 +4,7 @@
 
 # 고객센터 FAQ 데이터 요청
 
- - GET /api/faqs
+ - GET /faqs
 
  # 고객센터 FAQ 데이터 응답
 

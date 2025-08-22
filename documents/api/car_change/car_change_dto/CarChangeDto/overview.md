@@ -4,7 +4,7 @@
 
 # 차량 변경 요청
 
- - POST /api/car-change/submit
+ - POST /car-change/submit
 
  - 요청 파라미터 설명
 

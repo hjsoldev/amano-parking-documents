@@ -4,7 +4,7 @@
 
 # 홈 화면에서 보여지는 큐브 데이터 요청
 
- - GET /api/home/cube
+ - GET /home/cube
 
  # 홈 화면에서 보여지는 큐브 데이터 응답
 
