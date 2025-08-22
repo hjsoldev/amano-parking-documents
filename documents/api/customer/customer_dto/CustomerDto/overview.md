@@ -14,7 +14,7 @@
  |-|-|-|
  |id|string|고유 아이디|
  |title|string|타이틀|
- |type|string|타입|
+ |type|string|타입(탭 메뉴)|
  |content|string|내용|
  |createAt|string|생성 날짜|
 

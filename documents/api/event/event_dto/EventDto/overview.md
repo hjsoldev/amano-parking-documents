@@ -34,6 +34,7 @@
    "createAt": "2025-08-20T10:00:00Z",
    "status": "progress"
  }
+ ```
 
  - status 값
    - progress: 진행중
