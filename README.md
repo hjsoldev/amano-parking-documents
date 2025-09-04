@@ -6,7 +6,7 @@
     - [가이드 데이타](./documents/api/home/home_guide_dto/HomeGuideDto/overview.md)
 
 - 지도
-    - [주차장 목록](./documents/api/plots/plot_dto/PlotDto/overview.md)
+    - [주차장 목록](./documents/api/plots/plot_dto/PlotDto/overview.md)(마지막 수정일:2025-09-04)
     - [주차장 정보](./documents/api/plots/plot_dto/PlotInfoDto/overview.md)
     - [주차장 메타](./documents/api/plots/plot_dto/MetaDto/overview.md)
 - 차량 변경
@@ -14,7 +14,7 @@
     - [차량 변경 취소](./documents/api/car_change/car_change_dto/CarChangeCancelDto/overview.md)
 - 쿠폰
     - [쿠폰 목록](./documents/api/coupon/coupon_dto/CouponDto/overview.md)
-    - [쿠폰 등록](./documents/api/coupon/coupon_registration_dto/CouponRegistrationRequestDto/overview.md)
+    - [쿠폰 등록](./documents/api/coupon_registration/coupon_registration_dto/CouponRegistrationDto/overview.md)(마지막 수정일:2025-09-04)
     - [(작업중)쿠폰 사용](#)
 - 카드 관리
 - 고객센터
@@ -26,6 +26,8 @@
 - 상품내역
     - [내상품 목록](./documents/api/history/history_prd_dto/HistoryPrdDto/overview.md)
     - [이용 내역](./documents/api/history/history_use_dto/HistoryUseDto/overview.md)
+- 회원탈퇴
+    - [회원 탈퇴 요청](./documents/api/leave/leave_dto/LeaveDto/overview.md)(마지막 수정일:2025-09-04)
 - 공지사항
 - 알림
 - payment
