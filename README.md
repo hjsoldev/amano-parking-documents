@@ -6,8 +6,8 @@
     - [가이드 데이타](./documents/api/home/home_guide_dto/HomeGuideDto/overview.md)
 
 - 지도
-    - [주차장 목록](./documents/api/plots/plot_dto/PlotDto/overview.md)(마지막 수정일:2025-09-04)
-    - [주차장 정보](./documents/api/plots/plot_dto/PlotInfoDto/overview.md)(마지막 수정일:2025-09-04)
+    - [주차장 목록](./documents/api/plots/plot_dto/PlotDto/overview.md)(마지막 수정일:2025-09-05)
+    - [주차장 정보](./documents/api/plots/plot_dto/PlotInfoDto/overview.md)(마지막 수정일:2025-09-05)
     - [주차장 메타](./documents/api/plots/plot_dto/MetaDto/overview.md)
     - [주차장 상세 정보](./documents/api/plots/plot_detail_dto/PlotDetailDto/overview.md)(마지막 수정일:2025-09-05)
     - [주차장 운영 정보](./documents/api/plots/plot_detail_dto/PlotOperationDto/overview.md)(마지막 수정일:2025-09-05)
