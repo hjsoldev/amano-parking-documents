@@ -98,7 +98,7 @@
 
   |이름|타입|설명|
   |-|-|-|
-  |plots|List<PlotInfoDto>|주차장 목록|
+  |plots|arr_PlotInfoDto|주차장 목록|
   |meta|MetaDto|메타 데이타|
 
  - 응답 파라미터 예시
@@ -112,11 +112,16 @@
        "plotClasGrpCd": "주차장 종류",
        "lngt": 127.111128,
        "ltd": 37.394981,
-       "plotTicketName": "주차권 이름",
        "plotTicketType": "regular",
-       "plotTicketPrice": 1000,
        "plotStatus": ["available"],
-       "plotTagList": ["lift", "electric"]
+       "plotTagList": ["lift", "electric"],
+       "ppOp": {
+         "name": "1시간권",
+         "price": 2000,
+         "discount": 50,
+         "status": "sale",
+         "description": "1시간권",
+       }
      },
      {
        "plotId": "00002",
@@ -125,16 +130,34 @@
        "plotClasGrpCd": "주차장 종류",
        "lngt": 127.120981,
        "ltd": 37.387216,
-       "plotTicketName": "주차권 이름",
        "plotTicketType": "regular",
-       "plotTicketPrice": 1000,
+       "plotTicketType": "regular",
        "plotStatus": ["available"],
-       "plotTagList": ["machine", "auto"]
+       "plotTagList": ["machine", "auto"],
+       "ppOp": {
+         "name": "2시간권",
+         "price": 3000,
+         "discount": 20,
+         "status": "sale",
+         "description": "1시간권",
+       }
+     },
+     {
+       "plotId": "00003",
+       "plotNm": "주차장 이름3",
+       "addr": "주차장 주소3",
+       "plotClasGrpCd": "주차장 종류",
+       "lngt": 127.130981,
+       "ltd": 37.377216,
+       "plotTicketType": "regular",
+       "plotTicketType": "regular",
+       "plotStatus": ["coupon"],
+       "plotTagList": ["machine", "auto"],
      },
    ],
    "meta": {
-     "totalItems": 2,
-     "itemCount": 2,
+     "totalItems": 3,
+     "itemCount": 3,
      "itemsPerPage": 1,
      "totalPages": 1,
      "currentPage": 1

@@ -14,11 +14,10 @@
   |plotClasGrpCd|string|현장 유형 코드 (판매, 운영, 렌탈, 기타) 공란시 전체 조회|
   |lngt|double|경도|
   |ltd|double|위도|
-  |plotTicketName|string?|주차권 이름|
-  |plotTicketPrice|int?|주차장 요금|
   |plotTicketType|string?|주차장 타입(주차권, 정기권)|
   |plotStatus|string?|주차장 상태(이용불가, 할인 이벤트, 쿠폰)|
   |plotTagList|string?|주차장 태그(일반, 기계식, 자주식, 리프트, 노상, 복합, 부설주, 전기차 충전)|
+  |ppOp|PlotProductOperationDto?|주차장 상품 정보|
 
  - plotTicketType 값
     - regular:주차권

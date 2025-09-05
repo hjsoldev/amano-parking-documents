@@ -20,6 +20,7 @@
  |ltd|double|주차장 위도|
  |plotOp|object|주차장 운영 정보|
  |pfOp|object|주차장 시설 운영 정보|
+ |ppOp|arr_PlotProductOperationDto|주차장 상품 운영 정보|
 
  - 응답 데이터 예시
 
@@ -34,6 +35,8 @@
    "ltd": 37.394981,
    "plotOp": PlotOperationDto,
    "pfOp": PlotFacilityOperationDto,
+   "ppOp": [PlotProductOperationDto, PlotProductOperationDto],
+ }
  ```
 
 ## Dependencies
