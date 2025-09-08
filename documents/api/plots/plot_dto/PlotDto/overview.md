@@ -114,7 +114,16 @@
        "ltd": 37.394981,
        "plotTicketType": "regular",
        "plotStatus": ["available"],
-       "plotTagList": ["lift", "electric"],
+       "plotOp": {
+         "dtlGid": "정기권 차량은 입구에서 별도의 정기권 인증 절차를 진행한 뒤 주차장에 진입해 주십시오.",
+       },
+       "pfOp": {
+         "bildNm": "건물명",
+         "bildForms": ["public"],
+         "plotForms": ["machine", "auto"],
+         "usePsblCarKinds": ["suv", "sedan"],
+         "totPakCnt": 123,
+       },
        "ppOp": {
          "name": "1시간권",
          "price": 2000,
@@ -133,7 +142,15 @@
        "plotTicketType": "regular",
        "plotTicketType": "regular",
        "plotStatus": ["available"],
-       "plotTagList": ["machine", "auto"],
+       "plotOp": {
+         "dtlGid": "정기권 차량은 입구에서 별도의 정기권 인증 절차를 진행한 뒤 주차장에 진입해 주십시오.",
+       },
+       "pfOp": {
+         "bildNm": "건물명",
+         "bildForms": ["public"],
+         "plotForms": ["machine", "auto"],
+         "totPakCnt": 123,
+       },
        "ppOp": {
          "name": "2시간권",
          "price": 3000,
@@ -152,7 +169,22 @@
        "plotTicketType": "regular",
        "plotTicketType": "regular",
        "plotStatus": ["coupon"],
-       "plotTagList": ["machine", "auto"],
+       "plotOp": {
+         "dtlGid": "정기권 차량은 입구에서 별도의 정기권 인증 절차를 진행한 뒤 주차장에 진입해 주십시오.",
+       },
+       "pfOp": {
+         "bildNm": "건물명",
+         "bildForms": ["public"],
+         "plotForms": ["machine", "auto"],
+         "totPakCnt": 123,
+       },
+       "ppOp": {
+         "name": "3시간권",
+         "price": 4000,
+         "discount": 30,
+         "status": "sale",
+         "description": "3시간권",
+       }
      },
    ],
    "meta": {
@@ -164,16 +196,6 @@
    }
  }
  ```
-
- - plotTagList값
-   - none: 일반
-   - machine: 기계식
-   - auto: 자주식
-   - lift: 리프트
-   - ground: 노상
-   - mixed: 복합
-   - sub: 부설주
-   - electric: 전기차 충전
 
 ## Dependencies
 

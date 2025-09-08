@@ -16,7 +16,8 @@
   |ltd|double|위도|
   |plotTicketType|string?|주차장 타입(주차권, 정기권)|
   |plotStatus|string?|주차장 상태(이용불가, 할인 이벤트, 쿠폰)|
-  |plotTagList|string?|주차장 태그(일반, 기계식, 자주식, 리프트, 노상, 복합, 부설주, 전기차 충전)|
+  |plotOp|PlotOperationDto?|주차장 운영 정보|
+  |pfOp|PlotFacilityOperationDto?|주차장 시설 정보|
   |ppOp|PlotProductOperationDto?|주차장 상품 정보|
 
  - plotTicketType 값
@@ -27,15 +28,6 @@
     - unavailable:이용불가
     - discount:할인 이벤트
     - coupon:쿠폰
- - plotTagList 값
-    - none:일반
-    - machine:기계식
-    - auto:자주식
-    - lift:리프트
-    - ground:노상
-    - mixed:복합
-    - sub:부설주
-    - electric:전기차 충전
 
 ## Dependencies
 

@@ -18,9 +18,10 @@
  |plotClasGrpCd|string|주차장 클래스 그룹 코드|
  |lngt|double|주차장 경도|
  |ltd|double|주차장 위도|
- |plotOp|object|주차장 운영 정보|
- |pfOp|object|주차장 시설 운영 정보|
- |ppOp|arr_PlotProductOperationDto|주차장 상품 운영 정보|
+ |plotOp|object?|주차장 운영 정보|
+ |pfOp|object?|주차장 시설 운영 정보|
+ |ppOp|arr_PlotProductOperationDto?|주차장 상품 운영 정보|
+ |plotLastUpdated|string?|주차장 정보 마지막 업데이트 시간|
 
  - 응답 데이터 예시
 
@@ -36,6 +37,7 @@
    "plotOp": PlotOperationDto,
    "pfOp": PlotFacilityOperationDto,
    "ppOp": [PlotProductOperationDto, PlotProductOperationDto],
+   "plotLastUpdated": "2025-01-01",
  }
  ```
 
