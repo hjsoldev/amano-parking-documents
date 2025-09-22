@@ -2,17 +2,16 @@
 
 - 홈
     - 배너(/banner)
-        - [배너(큐브) 데이타](./documents/api/home/home_cube_dto/HomeCubeDto/overview.md)
-        - [배너(프로모션) 데이타](./documents/api/home/home_promotion_dto/HomePromotionDto/overview.md)
-        - [배너(가이드) 데이타](./documents/api/home/home_guide_dto/HomeGuideDto/overview.md)
+        - [배너(큐브) 데이타](./documents/api/home/home_cube_dto/HomeCubeDto/overview.md)(마지막 수정일:2025-09-22)
+        - [배너(프로모션) 데이타](./documents/api/home/home_promotion_dto/HomePromotionDto/overview.md)(마지막 수정일:2025-09-22)
+        - [배너(가이드) 데이타](./documents/api/home/home_guide_dto/HomeGuideDto/overview.md)(마지막 수정일:2025-09-22)
 
-- 지도
-    - [주차장 목록](./documents/api/plots/plot_dto/PlotDto/overview.md)(마지막 수정일:2025-09-08)
-        - [주차장 정보](./documents/api/plots/plot_dto/PlotInfoDto/overview.md)(마지막 수정일:2025-09-08)
-        - [주차장 상세 정보](./documents/api/plots/plot_detail_dto/PlotDetailDto/overview.md)(마지막 수정일:2025-09-08)
-        - [주차장 운영 정보](./documents/api/plots/plot_detail_dto/PlotOperationDto/overview.md)(마지막 수정일:2025-09-08)
-        - [주차장 시설 정보](./documents/api/plots/plot_detail_dto/PlotFacilityOperationDto/overview.md)(마지막 수정일:2025-09-08)
-        - [주차장 상품 정보](./documents/api/plots/plot_detail_dto/PlotProductOperationDto/overview.md)(마지막 수정일:2025-09-08)
+- 주차장 목록
+    - [주차장 목록](./documents/api/plots/plot_dto/PlotDto/overview.md)(마지막 수정일:2025-09-22)
+        - [주차장 상세 정보](./documents/api/plots/plot_detail_dto/PlotDetailDto/overview.md)(마지막 수정일:2025-09-22)
+        - [주차장 운영 정보](./documents/api/plots/plot_detail_dto/PlotOperationDto/overview.md)(마지막 수정일:2025-09-22)
+        - [주차장 시설 정보](./documents/api/plots/plot_detail_dto/PlotFacilityOperationDto/overview.md)(마지막 수정일:2025-09-22)
+        - [주차장 상품 정보](./documents/api/plots/plot_detail_dto/PlotProductOperationDto/overview.md)(마지막 수정일:2025-09-22)
 - 차량 변경
     - [차량 변경](./documents/api/car_change/car_change_dto/CarChangeDto/overview.md)
     - [차량 변경 취소](./documents/api/car_change/car_change_dto/CarChangeCancelDto/overview.md)
