@@ -4,7 +4,7 @@
 
 # 차량 변경 요청
 
- - POST /car-change/submit
+ - PUT /car-change/submit
 
  - 요청 파라미터 설명
 
@@ -30,18 +30,14 @@
 
  |이름|타입|설명|
  |-|-|-|
- |success|boolean|성공 여부|
- |message|string|메시지|
- |requestId|string|차량 변경 요청 ID|
+ |id|string|차량 변경 요청 ID|
  |remainCount|int|남은 차량 변경 횟수|
 
  - 응답 파라미터 예시
 
  ```json
  {
-   "success": true,
-   "message": "차량 변경 요청이 완료되었습니다.",
-   "requestId": "123e4567-e89b-12d3-a456-426614174000",
+   "id": "123e4567-e89b-12d3-a456-426614174000",
    "remainCount": 3
  }
  ```

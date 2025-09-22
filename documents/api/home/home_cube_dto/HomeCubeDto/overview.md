@@ -2,21 +2,22 @@
 
 ## Description
 
-# 홈 화면에서 보여지는 큐브 데이터 요청
+# 홈 화면에서 보여지는 배너 데이타 요청(큐브)
 
- - GET /home/cube
+ - GET /home/banner/M00
 
- # 홈 화면에서 보여지는 큐브 데이터 응답
+ # 홈 화면에서 보여지는 배너 데이타 응답(큐브)
 
  - 응답 파라미터 설명
 
  |이름|타입|설명|
  |-|-|-|
- |id|string|큐브 고유 아이디|
- |title|string|큐브 타이틀|
- |imageUrl|string|큐브 이미지 URL|
- |createAt|string|큐브 생성 날짜|
- |status|string|큐브 상태(?)|
+ |id|string|배너 고유 아이디|
+ |title|string|배너 타이틀|
+ |subtitle|string|배너 서브타이틀|
+ |imageUrl|string|배너 이미지 URL|
+ |contentType|string|배너 컨텐츠 타입|
+ |contentId|string|배너 링크 아이디|
 
  - 응답 파라미터 예시
 
@@ -24,17 +25,19 @@
  [
    {
      "id": "1",
-     "title": "큐브 타이틀1",
+     "title": "배너(큐브) 타이틀1",
+     "subTitle": "큐브 서브타이틀1",
      "imageUrl": "https://example.com/image.png",
-     "createAt": "2025-08-20T10:00:00Z",
-     "status": "completed"
+     "contentType": "event",
+     "contentId": "1",
    },
    {
      "id": "2",
-     "title": "큐브 타이틀2",
+     "title": "배너(큐브) 타이틀2",
+     "subTitle": "큐브 서브타이틀2",
      "imageUrl": "https://example.com/image.png",
-     "createAt": "2025-08-20T10:00:00Z",
-     "status": "completed"
+     "contentType": "event",
+     "contentId": "2",
    }
  ]
  ```

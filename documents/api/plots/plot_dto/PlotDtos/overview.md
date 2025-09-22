@@ -1,4 +1,4 @@
-# Overview for `ProfileDto`
+# Overview for `PlotDtos`
 
 ## Description
 
@@ -6,14 +6,11 @@
 
 ## Dependencies
 
-- _$ProfileDto
+- _$PlotDtos
 
 ## Constructors
 
 ### Unnamed Constructor
-
-
-### _
 
 
 ### fromJson
@@ -22,3 +19,9 @@
 #### Parameters
 
 - `json`: `Map<String, dynamic>`
+### fromResponse
+
+
+#### Parameters
+
+- `response`: `dynamic`

@@ -6,7 +6,7 @@
 
  ## 쿠폰 사용 가능 목록 요청
 
- - POST /coupon
+ - GET /coupon
 
  - 요청 파라미터 설명
 

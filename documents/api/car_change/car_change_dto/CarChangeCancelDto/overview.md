@@ -4,13 +4,13 @@
 
 # 치량 변경 취소 요청
 
- - POST /car-change/cancel
+ - GET /car-change/cancel
 
  - 요청 데이터 설명
 
  |이름|타입|설명|
  |-|-|-|
- |requestId|string|차량 변경 요청 ID|
+ |id|string|차량 변경 요청 ID|
 
  - 요청 데이터 예시
 
@@ -24,19 +24,7 @@
 
  - 응답 데이터 설명
 
- |이름|타입|설명|
- |-|-|-|
- |success|boolean|성공 여부|
- |message|string|메시지|
-
- - 응답 데이터 예시
-
- ```json
- {
-   "success": true,
-   "message": "차량 변경 취소 요청이 완료되었습니다."
- }
- ```
+ no content
 
 ## Dependencies
 

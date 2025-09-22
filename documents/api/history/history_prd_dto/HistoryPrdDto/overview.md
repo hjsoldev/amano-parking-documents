@@ -4,7 +4,7 @@
 
 # 주차권 구매 내역 요청
 
- - POST /history/products
+ - GET /history/products
 
  - 요청 파라미터 설명
 

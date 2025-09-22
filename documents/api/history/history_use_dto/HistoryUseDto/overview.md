@@ -4,7 +4,7 @@
 
 # 주차권 사용 내역 요청
 
- - POST /history/uses
+ - GET /history/uses
 
  - 요청 파라미터 설명
 

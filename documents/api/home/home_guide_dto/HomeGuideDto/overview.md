@@ -4,7 +4,7 @@
 
 # 홈 화면에서 보여지는 가이드 데이터 요청
 
- - GET /home/guide
+ - GET /home/banner/M01
 
  # 홈 화면에서 보여지는 가이드 데이터 응답
 
@@ -12,13 +12,12 @@
 
  |이름|타입|설명|
  |-|-|-|
- |id|string|가이드 고유 아이디|
- |title|string|가이드 타이틀|
- |content|string|가이드 내용|
- |imageUrl|string|가이드 이미지 URL|
- |containerColor|string|가이드 색상(?)|
- |navigation|string|가이드 네비게이션(?)|
- |createAt|string|가이드 생성 날짜|
+ |id|string|배너(가이드) 고유 아이디|
+ |title|string|배너(가이드) 타이틀|
+ |subTitle|string|배너(가이드) 서브타이틀|
+ |imageUrl|string|배너(가이드) 이미지 URL|
+ |contentType|string|배너(가이드) 컨텐츠 타입|
+ |contentId|string|배너(가이드) 컨텐츠 아이디|
 
  - 응답 파라미터 예시
 
