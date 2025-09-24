@@ -18,6 +18,9 @@
   |plotTicketTime|string|주차권 시간, 공란시 전체 조회|
   |plotTicketPeriod|string|주차권 기간 (평일오전, 평일오후, 주말오전, 주말오후, 종일권) 공란시 전체 조회|
 
+ - plotTicketTime - 필터에 사용되는 주차권 시간 - 숫자, 공란시 전체 조회
+ - plotTicketPeriod - 필터에 사용되는 주차권 기간 - 확인 후 삭제?
+
  - 요청 파라미터 예시
 
  ```json
@@ -43,7 +46,7 @@
    - weekendAfternoon: 주말오후
    - allDay: 종일권
 
- # 주차장 목록 요청(줌 레벨 기반 조회)
+ # 주차장 목록 요청(줌 레벨 기반 조회) - 현재 미사용
 
  - GET /plots/zoom
 
@@ -188,7 +191,6 @@
   |plotId|string|주차장 ID|
   |plotNm|string|주차장 이름|
   |addr|string|주차장 주소|
-  |plotClasGrpCd|string|현장 유형 코드 (판매, 운영, 렌탈, 기타) 공란시 전체 조회|
   |lngt|double|경도|
   |ltd|double|위도|
   |plotTicketType|string?|주차장 타입(주차권, 정기권)|
@@ -201,7 +203,7 @@
  - plotTicketType 값
     - regular:주차권
     - season:정기권
- - plotStatus 값
+ - plotStatus 값 - 지도 마커의 상태 표시
     - none:상태없음
     - unavailable:이용불가
     - discount:할인 이벤트

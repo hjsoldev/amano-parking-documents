@@ -2,11 +2,11 @@
 
 ## Description
 
-# 이벤트 목록 페이지 데이터 요청
+# 이벤트 목록 요청
 
  - GET /event
 
- # 이벤트 목록 페이지 데이터 응답
+ # 이벤트 목록 응답
 
  - 응답 파라미터 설명
 
@@ -14,26 +14,33 @@
  |-|-|-|
  |id|string|이벤트 ID|
  |title|string|이벤트 제목|
- |imageUrl|string|이벤트 이미지 주소|
- |content|string|이벤트 내용|
+ |status|string|이벤트 상태|
  |startAt|string|이벤트 시작 날짜|
  |endAt|string|이벤트 종료 날짜|
  |createAt|string|이벤트 생성 날짜|
- |status|string|이벤트 상태|
 
  - 응답 파라미터 예시
 
  ```json
+ [
  {
-   "id": "123e4567-e89b-12d3-a456-426614174000",
-   "title": "이벤트 제목",
-   "imageUrl": "https://example.com/image.jpg",
-   "content": "이벤트 내용",
-   "startAt": "2025-08-20T10:00:00Z",
-   "endAt": "2025-08-20T10:00:00Z",
-   "createAt": "2025-08-20T10:00:00Z",
-   "status": "progress"
- }
+
+     "id": "1",
+     "title": "이벤트 제목1",
+     "status": "progress"
+     "startAt": "2025-08-20T10:00:00Z",
+     "endAt": "2025-08-20T10:00:00Z",
+     "createAt": "2025-08-20T10:00:00Z",
+   },
+   {
+     "id": "2",
+     "title": "이벤트 제목2",
+     "status": "closed"
+     "startAt": "2025-08-20T10:00:00Z",
+     "endAt": "2025-08-20T10:00:00Z",
+     "createAt": "2025-08-20T10:00:00Z",
+   },
+ ]
  ```
 
  - status 값

@@ -1,46 +1,76 @@
 # amano-parking-documents
 
-- 홈
-    - 배너(/banner)
-        - [배너(큐브) 데이타](./documents/api/home/home_cube_dto/HomeCubeDto/overview.md)(마지막 수정일:2025-09-22)
-        - [배너(프로모션) 데이타](./documents/api/home/home_promotion_dto/HomePromotionDto/overview.md)(마지막 수정일:2025-09-22)
-        - [배너(가이드) 데이타](./documents/api/home/home_guide_dto/HomeGuideDto/overview.md)(마지막 수정일:2025-09-22)
+- 유저 정보
+    - 유저(소셜) 정보
+    - 프로필 정보
+    - 차량 정보
+    - 지불(카드)정보
+    - 설정 정보
+- 배너(홈 화면 큐브, 프로모션, 하단 가이드/이벤트 화면 상단에서 사용)
+    - [배너 목록](./documents/api/banner/banner_dto/BannerDto/overview.md)(마지막 수정일:2025-09-23)
 
-- 주차장 목록
+- 주차장 목록(지도, 검색에서 사용)
     - [주차장 목록](./documents/api/plots/plot_dto/PlotDto/overview.md)(마지막 수정일:2025-09-22)
-        - [주차장 상세 정보](./documents/api/plots/plot_detail_dto/PlotDetailDto/overview.md)(마지막 수정일:2025-09-22)
         - [주차장 운영 정보](./documents/api/plots/plot_detail_dto/PlotOperationDto/overview.md)(마지막 수정일:2025-09-22)
         - [주차장 시설 정보](./documents/api/plots/plot_detail_dto/PlotFacilityOperationDto/overview.md)(마지막 수정일:2025-09-22)
         - [주차장 상품 정보](./documents/api/plots/plot_detail_dto/PlotProductOperationDto/overview.md)(마지막 수정일:2025-09-22)
+- 주차장 상세 정보        
+    - [주차장 상세 정보](./documents/api/plots/plot_detail_dto/PlotDetailDto/overview.md)(마지막 수정일:2025-09-22)
+        - [주차장 운영 정보](./documents/api/plots/plot_detail_dto/PlotOperationDto/overview.md)(마지막 수정일:2025-09-22)
+        - [주차장 시설 정보](./documents/api/plots/plot_detail_dto/PlotFacilityOperationDto/overview.md)(마지막 수정일:2025-09-22)
+        - [주차장 상품 정보](./documents/api/plots/plot_detail_dto/PlotProductOperationDto/overview.md)(마지막 수정일:2025-09-22)    
+- 이벤트
+    - [이벤트 목록](./documents/api/event/event_dto/EventDto/overview.md)(마지막 수정일:2025-09-24)
+    - [이벤트 상세](./documents/api/event/event_detail_dto/EventDetailDto/overview.md)(마지막 수정일:2025-09-24)
+- 고객센터(FAQ)
+    - [고객센터 탭 목록 요청](./documents/api/customer/customer_tab_dto/CustomerTabDto/overview.md)(마지막 수정일:2025-09-23)
+    - [고객센터 제목, 내용 요청](./documents/api/customer/customer_dto/CustomerDto/overview.md)(마지막 수정일:2025-09-23)
 - 차량 변경
-    - [차량 변경](./documents/api/car_change/car_change_dto/CarChangeDto/overview.md)
+    - [차량 변경 요청](./documents/api/car_change/car_change_dto/CarChangeDto/overview.md)
     - [차량 변경 취소](./documents/api/car_change/car_change_dto/CarChangeCancelDto/overview.md)
 - 쿠폰
     - [쿠폰 목록](./documents/api/coupon/coupon_dto/CouponDto/overview.md)
-    - [쿠폰 등록](./documents/api/coupon_registration/coupon_registration_dto/CouponRegistrationDto/overview.md)(마지막 수정일:2025-09-04)
-    - [(작업중)쿠폰 사용](#)
+    - 쿠폰 등록
+    - 쿠폰 사용
 - 카드 관리
-- 고객센터
-    - [FAQ 목록](./documents/api/customer/customer_dto/CustomerDto/overview.md)
-- 이벤트
-    - [이벤트 목록](./documents/api/event/event_dto/EventDto/overview.md)
-    - [이벤트 상세](./documents/api/event/event_detail_dto/EventDetailDto/overview.md)
-- 즐겨찾기(지도)
+    - 카드 목록(유저정보 - 지불정보 참조)
+    - 카드 등록
+    - 카드 삭제?
+- 즐겨찾기
+    - 즐겨찾기 목록
+    - 즐겨찾기 추가
+    - 즐겨찾기 삭제
 - 상품내역
     - [내상품 목록](./documents/api/history/history_prd_dto/HistoryPrdDto/overview.md)
     - [이용 내역](./documents/api/history/history_use_dto/HistoryUseDto/overview.md)
 - 회원탈퇴
     - [회원 탈퇴 요청](./documents/api/leave/leave_dto/LeaveDto/overview.md)(마지막 수정일:2025-09-04)
 - 공지사항
+    - [공지사항 목록](./documents/api/notice/notice_dto/NoticeDto/overview.md)(마지막 수정일:2025-09-24)
+    - [공지사항 상세](./documents/api/notice/notice_detail_dto/NoticeDetailDto/overview.md)(마지막 수정일:2025-09-24)
 - 알림
-- payment
-- 지불방법
-- 프로필
+    - 알림 목록
+    - 알림 상세
 - 프로필 수정
+    - 프로필 정보(유저 정보 - 프로필에서 참조)
+    - 이메일 변경
+    - 비밀번호 변경
+    - 휴대폰 번호 변경
 - 영수증
-- 최근검색어
+    - 영수증 조회
 - 환불
-- 차량등록
-- 로그인
+    - 환불 요청
+- 차량관리
+    - 등록된 차량 목록(유저 정보 - 차량목록에서 참조)
+    - 차량 등록
+    - 차량 수정
+    - 차량 삭제
 - 구독관리
-- 사용가이드
+    - [구독 목록](./documents/api/subscription/subscription_dto/SubScriptionDto/overview.md)(마지막 수정일:2025-09-24)
+    - [구독 해지](./documents/api/subscription/subscription_dto/SubScriptionDto/overview.md#구독-해지-요청)(마지막 수정일:2025-09-24)
+    - 구독 현황 카드 변경
+- 내부 정기권
+    - 내부 정기권 목록
+    - 내부 정기권 등록
+    - 내부 정기권 삭제
+

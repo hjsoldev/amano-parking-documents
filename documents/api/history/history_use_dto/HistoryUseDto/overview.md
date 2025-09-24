@@ -29,8 +29,9 @@
  |이름|타입|설명|
  |-|-|-|
  |id|string|사용 ID|
- |productName|string|상품명|
- |stationName|string|지점명|
+ |prodName|string|상품명|
+ |plotName|string|지점명|
+ |plotAddress|string|지점 주소|
  |carNumber|string|차량번호|
  |isSubscribed|bool|구독 상품 여부|
  |discount|map_(string, string)|할인 내용|
@@ -46,8 +47,9 @@
  [
    {
      "id": "123e4567-e89b-12d3-a456-426614174000",
-     "productName": "1시간권",
-     "stationName": "이마트 성수점",
+     "prodName": "1시간권",
+     "plotName": "이마트 성수점",
+     "plotAddress": "서울특별시 성동구 왕십리로 100",
      "carNumber": "789다1234",
      "isSubscribed": false,
      "discount": [{"쿠폰": "10%"}, {"포인트": "1000원"}],
@@ -59,8 +61,9 @@
    }
    {
      "id": "123e4567-e89b-12d3-a456-426614174001",
-     "productName": "1시간권",
-     "stationName": "이마트 성수점",
+     "prodName": "1시간권",
+     "plotName": "이마트 성수점",
+     "plotAddress": "서울특별시 성동구 왕십리로 100",
      "carNumber": "789다1234",
      "isSubscribed": false,
      "discount": [{"쿠폰": "10%"}, {"포인트": "1000원"}],
