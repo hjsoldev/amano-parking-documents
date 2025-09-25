@@ -68,7 +68,8 @@
 - 구독관리
     - [구독 목록](./documents/api/subscription/subscription_dto/SubScriptionDto/overview.md)(마지막 수정일:2025-09-24)
     - [구독 해지](./documents/api/subscription/subscription_dto/SubScriptionDto/overview.md#구독-해지-요청)(마지막 수정일:2025-09-24)
-    - 구독 현황 카드 변경
+    - [구독 삭제](./documents/api/subscription/subscription_dto/SubScriptionDto/overview.md#만료된-구독-삭제-요청)(마지막 수정일:2025-09-24)
+    - 구독 카드 변경
 - 내부 정기권
     - 내부 정기권 목록
     - 내부 정기권 등록

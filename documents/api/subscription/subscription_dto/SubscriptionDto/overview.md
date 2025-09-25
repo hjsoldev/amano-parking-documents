@@ -55,13 +55,19 @@
 
  # 구독 해지 요청
 
- - DELETE /subscriptions/{id}
+ - PUT /subscriptions/{id}
 
  # 구독 해지 응답
 
- - 응답 파라미터 설명
+ - content 없음, 결과 값만 사용합니다.
 
- 래핑된 결과 값으로 사용합니다.
+ # 만료된 구독 삭제 요청
+
+ - DELETE /subscriptions/{id}
+
+ # 만료된 구독 삭제 응답
+
+ - content 없음, 결과 값만 사용합니다.
 
 ## Dependencies
 
