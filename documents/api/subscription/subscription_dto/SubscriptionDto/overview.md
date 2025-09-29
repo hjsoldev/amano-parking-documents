@@ -69,6 +69,14 @@
 
  - content 없음, 결과 값만 사용합니다.
 
+ # 구독 카드 변경 요청
+
+ - PUT /subscriptions/card/{id}
+
+ # 구독 카드 변경 응답
+
+ - content 없음, 결과 값만 사용합니다.
+
 ## Dependencies
 
 - _$SubscriptionDto

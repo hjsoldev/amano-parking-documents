@@ -57,7 +57,7 @@
     - 비밀번호 변경
     - 휴대폰 번호 변경
 - 영수증
-    - 영수증 조회
+    - [영수증 조회](./documents/api/receipt/receipt_dto/ReceiptDto/overview.md)(마지막 수정일:2025-09-24)
 - 환불
     - 환불 요청
 - 차량관리
@@ -69,9 +69,13 @@
     - [구독 목록](./documents/api/subscription/subscription_dto/SubScriptionDto/overview.md)(마지막 수정일:2025-09-24)
     - [구독 해지](./documents/api/subscription/subscription_dto/SubScriptionDto/overview.md#구독-해지-요청)(마지막 수정일:2025-09-24)
     - [구독 삭제](./documents/api/subscription/subscription_dto/SubScriptionDto/overview.md#만료된-구독-삭제-요청)(마지막 수정일:2025-09-24)
-    - 구독 카드 변경
+    - [구독 카드 변경](./documents/api/subscription/subscription_dto/SubScriptionDto/overview.md#구독-카드-변경-요청)(마지막 수정일:2025-09-24)
 - 내부 정기권
-    - 내부 정기권 목록
-    - 내부 정기권 등록
-    - 내부 정기권 삭제
+    - [내부 정기권 목록](./documents/api/ticket/ticket_dto/TicketDto/overview.md)(마지막 수정일:2025-09-29)
+    - [내부 정기권 삭제](./documents/api/ticket/ticket_dto/TicketDto/overview.md#내부-정기권-삭제-요청)(마지막 수정일:2025-09-29)
+    - [내부 정기권 등록](./documents/api/ticket/ticket_auth_dto/TicketAuthDto/overview.md)(마지막 수정일:2025-09-29)
+- 주차권 구매
+    - [주차권 정보 요청](./documents/api/payment/payment_dto/PaymentDto/overview.md)
+        - [주차장 상품 정보](./documents/api/plots/plot_detail_dto/PlotProductOperationDto/overview.md)
+    - 주차권 구매 요청
 

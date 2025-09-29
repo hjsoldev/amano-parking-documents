@@ -1,4 +1,4 @@
-# Overview for `TicketAuthDto`
+# Overview for `RefundDto`
 
 ## Description
 
@@ -6,11 +6,14 @@
 
 ## Dependencies
 
-- _$TicketAuthDto
+- _$RefundDto
 
 ## Constructors
 
 ### Unnamed Constructor
+
+
+### _
 
 
 ### fromJson

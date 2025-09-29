@@ -1,6 +1,0 @@
-# Overview for `RefundResponse`
-
-## Description
-
-
-
