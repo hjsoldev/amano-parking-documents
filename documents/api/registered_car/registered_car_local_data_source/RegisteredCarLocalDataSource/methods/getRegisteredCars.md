@@ -5,5 +5,5 @@
 
 
 ## Return Type
-`Future<Either<AppException, List<RegisteredCarEntity>>>`
+`Future<Either<AppException, WrapperDto<RegisteredCarDto>>>`
 

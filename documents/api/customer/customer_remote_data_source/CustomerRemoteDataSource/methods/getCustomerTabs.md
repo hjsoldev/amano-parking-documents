@@ -2,9 +2,9 @@
 
 ## Description
 
-# 고객센터 탭 목록 요청
+# FAQ 탭 목록 요청
 
- ## GET /customers/tabs
+ ## GET /customer/tabs
 
  ### 응답 파라미터 설명
 

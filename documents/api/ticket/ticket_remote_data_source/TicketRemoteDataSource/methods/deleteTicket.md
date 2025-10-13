@@ -17,7 +17,7 @@
  - content 없음, 결과 값만 사용합니다.
 
 ## Return Type
-`Future<Either<AppException, WrapperDto<bool>>>`
+`Future<Either<AppException, WrapperDto<void>>>`
 
 ## Parameters
 

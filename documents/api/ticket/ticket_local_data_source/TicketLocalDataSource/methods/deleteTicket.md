@@ -5,7 +5,7 @@
 
 
 ## Return Type
-`Future<Either<AppException, WrapperDto<bool>>>`
+`Future<Either<AppException, WrapperDto<void>>>`
 
 ## Parameters
 

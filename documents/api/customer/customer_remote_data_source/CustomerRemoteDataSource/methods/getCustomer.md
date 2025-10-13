@@ -2,9 +2,9 @@
 
 ## Description
 
-# 고객센터 목록 요청
+# FAQ 목록 요청
 
- ## GET /customers/{type}
+ ## GET /customer/{type}
 
  ### 응답 파라미터 설명
 
@@ -16,7 +16,7 @@
  |content|string|내용|
  |createAt|string|생성 날짜|
 
- ### type값은 /customers/tabs 요청 후 탭 타입 값으로 사용
+ ### type값은 /customer/tabs 요청 후 탭 타입 값으로 사용
  - app: 앱
  - product: 상품
  - refund: 환불

@@ -20,10 +20,8 @@
   |이름|타입|설명|
   |-|-|-|
   |plotInfo|PlotDto|주차장 정보|
-  |plotOp|PlotOperationDto|주차장 운영 정보|
-  |pfOp|PlotFacilityOperationDto|주차장 시설 정보|
-  |ppOp|PlotProductOperationDto|주차장 상품 정보|
-  |distance|double|거리(미터)|
+
+ ### 거리 항목은 로컬에서 계산?
 
 ## Return Type
 `Future<Either<AppException, WrapperDto<ProductDiscountDto>>>`

@@ -1,4 +1,4 @@
-# Method: `deleteTicket`
+# Method: `deleteRegisteredCar`
 
 ## Description
 
@@ -9,4 +9,4 @@
 
 ## Parameters
 
-- `id`: `String`
+- `carNumber`: `String`

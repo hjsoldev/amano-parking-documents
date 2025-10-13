@@ -13,7 +13,7 @@
 
 - [이벤트](./documents/api/event/event_remote_data_source/EventRemoteDataSource/overview.md)(마지막 수정일:2025-10-12)
 
-- [고객센터](./documents/api/customer/customer_remote_data_source/CustomerRemoteDataSource/overview.md)(마지막 수정일:2025-10-12)
+- [FAQ목록](./documents/api/customer/customer_remote_data_source/CustomerRemoteDataSource/overview.md)(마지막 수정일:2025-10-12)
 
 - 상품내역
     - [내상품 목록](./documents/api/history/history_prd_remote_data_source/HistoryPrdRemoteDataSource/overview.md)(마지막 수정일:2025-10-12)
