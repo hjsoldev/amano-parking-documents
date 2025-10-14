@@ -8,24 +8,24 @@
 
  ### 요청 파라미터 설명
 
- |이름|타입|설명|
- |-|-|-|
- |type|string|타입|
+  |이름|타입|설명|
+  |-|-|-|
+  |type|string|타입|
 
  ### 응답 파라미터 설명
 
- |이름|타입|설명|
- |-|-|-|
- |id|string|아이디|
- |plotName|string|주차장 이름|
- |carNumber|string|차량 번호|
- |reservationDate|string|다음 결제 예약 날자|
- |reservationCard|string|다음 결제 예약 카드|
- |amount|int|금액|
- |status|string|상태|
- |type|string|타입|
- |latitude|double|위도|
- |longitude|double|경도|
+  |이름|타입|설명|
+  |-|-|-|
+  |id|string|아이디|
+  |plotName|string|주차장 이름|
+  |carNumber|string|차량 번호|
+  |reservationDate|string|다음 결제 예약 날자|
+  |reservationCard|string|다음 결제 예약 카드|
+  |amount|int|금액|
+  |status|string|상태|
+  |type|string|타입|
+  |latitude|double|위도|
+  |longitude|double|경도|
 
  ### type 값
  - available: 구독 현황

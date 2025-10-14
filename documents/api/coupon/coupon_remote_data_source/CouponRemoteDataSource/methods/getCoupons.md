@@ -8,9 +8,9 @@
 
  ### 요청 파라미터 설명
 
- |이름|타입|설명|
- |-|-|-|
- |status|string|쿠폰 상태|
+  |이름|타입|설명|
+  |-|-|-|
+  |status|string|쿠폰 상태|
 
  ### status
  - available: 사용 가능
@@ -18,17 +18,17 @@
 
  ### 응답 파라미터 설명
 
- |이름|타입|설명|
- |-|-|-|
- |id|string|쿠폰 아이디|
- |title|string|쿠폰 제목|
- |description|string|쿠폰 설명|
- |startDate|string|쿠폰 시작 날짜|
- |endDate|string|쿠폰 종료 날짜|
- |plotName|string|주차장 이름|
- |status|string|쿠폰 상태|
- |linkType|string|이동 경로|
- |linkId|string|주차장 상세페이지 아이디|
+  |이름|타입|설명|
+  |-|-|-|
+  |id|string|쿠폰 아이디|
+  |title|string|쿠폰 제목|
+  |description|string|쿠폰 설명|
+  |startDate|string|쿠폰 시작 날짜|
+  |endDate|string|쿠폰 종료 날짜|
+  |plotName|string|주차장 이름|
+  |status|string|쿠폰 상태|
+  |linkType|string|이동 경로|
+  |linkId|string|주차장 상세페이지 아이디|
 
  ### status
  - available: 사용 가능

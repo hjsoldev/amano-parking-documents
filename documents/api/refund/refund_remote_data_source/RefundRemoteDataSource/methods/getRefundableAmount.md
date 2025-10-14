@@ -8,10 +8,10 @@
 
  - 요청 파라미터 설명
 
- |이름|타입|설명|
- |-|-|-|
- |dateTime|String|날짜 시간|
- |ticketId|String|주차권 ID|
+  |이름|타입|설명|
+  |-|-|-|
+  |dateTime|String|날짜 시간|
+  |ticketId|String|주차권 ID|
 
  - 요청 파라미터 예시
 

@@ -8,13 +8,13 @@
 
  ### 요청 파라미터 설명
 
- |이름|타입|설명|
- |-|-|-|
- |plotId|string|주차장 ID|
+  |이름|타입|설명|
+  |-|-|-|
+  |plotId|string|주차장 ID|
 
  ### 응답 파라미터 설명
 
- - WrapperDto의 success 값만 사용합니다.
+ - content 없음, 결과 값만 사용합니다.
 
 ## Return Type
 `Future<Either<AppException, WrapperDto<void>>>`

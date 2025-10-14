@@ -8,13 +8,13 @@
 
  ### 응답 파라미터 설명
 
- |이름|타입|설명|
- |-|-|-|
- |id|string|아이디|
- |title|string|타이틀|
- |type|string|타입|
- |content|string|내용|
- |createAt|string|생성 날짜|
+  |이름|타입|설명|
+  |-|-|-|
+  |id|string|아이디|
+  |title|string|타이틀|
+  |type|string|타입|
+  |content|string|내용|
+  |createAt|string|생성 날짜|
 
  ### type값은 /customer/tabs 요청 후 탭 타입 값으로 사용
  - app: 앱

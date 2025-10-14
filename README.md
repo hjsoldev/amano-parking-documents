@@ -29,9 +29,11 @@
 
 - [영수증](./documents/api/receipt/receipt_remote_data_source/ReceiptRemoteDataSource/overview.md)(마지막 수정일:2025-10-12)
 
-- [회원탈퇴](./documents/api/leave/leave_remote_data_source/LeaveRemoteDataSource/overview.md)(마지막 수정일:2025-10-12)
+- [회원탈퇴](./documents/api/leave/leave_remote_data_source/LeaveRemoteDataSource/overview.md)(마지막 수정일:2025-10-14)
 
-- [주차장 할인 상품 정보](./documents/api/product_discount/product_discount_remote_data_source/ProductDiscountRemoteDataSource/overview.md)(마지막 수정일:2025-10-12)
+- [주차장 할인 상품 정보](./documents/api/product_discount/product_discount_remote_data_source/ProductDiscountRemoteDataSource/overview.md)(마지막 수정일:2025-10-14)
+
+- [차량 등록](./documents/api/registered_car/registered_car_remote_data_source/RegisteredCarRemoteDataSource/overview.md)(마지막 수정일:2025-10-14)
 # 남은 작업
 
 - 유저 정보

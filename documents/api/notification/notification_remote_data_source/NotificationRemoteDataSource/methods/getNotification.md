@@ -8,9 +8,9 @@
 
  ### 요청 파라미터 설명
 
- |이름|타입|설명|
- |-|-|-|
- |type|string|알림 타입(시스템, 이벤트)|
+  |이름|타입|설명|
+  |-|-|-|
+  |type|string|알림 타입(시스템, 이벤트)|
 
  ### type 값
  - system: 시스템
@@ -18,17 +18,17 @@
 
  ### 응답 파라미터 설명
 
- |이름|타입|설명|
- |-|-|-|
- |id|string|알림 ID|
- |type|string|알림 타입(시스템, 이벤트)|
- |carNumber|string|차량번호|
- |title|string|타이틀|
- |bodyMsg|string|메시지|
- |footMsg|string|하단 메시지|
- |linkType|string|이동 경로(event, notice ... etc)|
- |linkId|string|이동 경로 아이디|
- |createAt|string|날짜|
+  |이름|타입|설명|
+  |-|-|-|
+  |id|string|알림 ID|
+  |type|string|알림 타입(시스템, 이벤트)|
+  |carNumber|string|차량번호|
+  |title|string|타이틀|
+  |bodyMsg|string|메시지|
+  |footMsg|string|하단 메시지|
+  |linkType|string|이동 경로(event, notice ... etc)|
+  |linkId|string|이동 경로 아이디|
+  |createAt|string|날짜|
 
  ### linkType
  - event: 이벤트
