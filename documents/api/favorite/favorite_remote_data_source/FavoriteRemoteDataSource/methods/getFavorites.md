@@ -22,7 +22,8 @@
   |ppOp|PlotProductOperationDto?|주차장 상품 정보|
 
  ### 확인 필요 사항
- - pfOp의 bildForms 필드의 값중 amano가 있으면 아마노 주차장 아이콘을 표시 중입니다.
+
+ - pfOp의 bildForms 필드의 값중 amano가 있으면 아마노 주차장 아이콘을 표시 합니다.
 
 ## Return Type
 `Future<Either<AppException, WrapperDto<PlotDto>>>`

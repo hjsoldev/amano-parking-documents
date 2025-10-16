@@ -1,16 +1,16 @@
-# Method: `updateRegisteredCar`
+# Method: `passwordCheck`
 
 ## Description
 
-# 대표 차량 설정 요청
+# 현재 비밀번호 확인 요청
 
- ## PUT /profile/registered-cars/{id}
+ ## GET /profile/modify/password
 
  ### 요청 파라미터 설명
 
   |이름|타입|설명|
   |-|-|-|
-  |id|String|차량 ID|
+  |password|String|비밀번호|
 
  ### 응답 파라미터 설명
 
@@ -21,5 +21,4 @@
 
 ## Parameters
 
-- `id`: `String`
-- `carNumber`: `String`
+- `password`: `String`

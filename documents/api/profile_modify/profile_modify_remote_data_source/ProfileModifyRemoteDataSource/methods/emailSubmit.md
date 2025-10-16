@@ -1,16 +1,16 @@
-# Method: `updateRegisteredCar`
+# Method: `emailSubmit`
 
 ## Description
 
-# 대표 차량 설정 요청
+# 이메일 변경 요청
 
- ## PUT /profile/registered-cars/{id}
+ ## PUT /profile/modify/email
 
  ### 요청 파라미터 설명
 
   |이름|타입|설명|
   |-|-|-|
-  |id|String|차량 ID|
+  |email|String|이메일|
 
  ### 응답 파라미터 설명
 
@@ -21,5 +21,4 @@
 
 ## Parameters
 
-- `id`: `String`
-- `carNumber`: `String`
+- `email`: `String`

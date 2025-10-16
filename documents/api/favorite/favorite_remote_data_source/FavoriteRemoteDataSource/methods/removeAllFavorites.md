@@ -4,7 +4,7 @@
 
 # 즐겨찾기 전체 삭제 요청
 
- ## DELETE /favorites/all
+ ## DELETE /favorites/removeAll
 
  ### 응답 파라미터 설명
 

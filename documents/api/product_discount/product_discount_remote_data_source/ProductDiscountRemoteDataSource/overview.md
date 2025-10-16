@@ -14,6 +14,7 @@
  ## 상품 할인 정보 api 목록
 
  - [상품 할인 정보 요청](./methods/getProductDiscount.md)
+   - [데이타 예시](../../product_discount_local_data_source/ProductDiscountLocalDataSource/methods/getProductDiscount.md)
 
 ## Dependencies
 

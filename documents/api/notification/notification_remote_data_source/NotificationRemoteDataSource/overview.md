@@ -2,9 +2,9 @@
 
 ## Description
 
-# 알림(시스템, 이벤트) 목록 요청
- ## 알림(시스템, 이벤트) api 목록
- - [알림(시스템, 이벤트) 목록 요청](./methods/getNotification.md)
+# 알림 목록 요청
+ ## 알림 api 목록
+ - [알림 목록 요청](./methods/getNotification.md)
 
 ## Dependencies
 
