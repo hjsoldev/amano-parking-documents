@@ -1,4 +1,4 @@
-# Method: `getHistory`
+# Method: `getHistoryDetail`
 
 ## Description
 
@@ -9,6 +9,4 @@
 
 ## Parameters
 
-- ``: `dynamic`
-- ``: `dynamic`
 - ``: `dynamic`

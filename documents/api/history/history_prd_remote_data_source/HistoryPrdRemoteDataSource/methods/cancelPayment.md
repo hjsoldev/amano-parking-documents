@@ -2,7 +2,7 @@
 
 ## Description
 
-# 주차권 구매 내역 취소 요청
+# 상품 구매 취소 요청
 
  ## POST /history/products/cancel/{id}
 
@@ -10,7 +10,7 @@
 
   |이름|타입|설명|
   |-|-|-|
-  |id|string|주차권 ID|
+  |id|string|상품 ID|
 
  ### 응답 파라미터 설명
 

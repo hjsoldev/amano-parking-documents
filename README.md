@@ -15,9 +15,7 @@
 
 - [FAQ목록](./documents/api/customer/customer_remote_data_source/CustomerRemoteDataSource/overview.md)(마지막 수정일:2025-10-12)
 
-- 상품내역
-    - [내상품 목록](./documents/api/history/history_prd_remote_data_source/HistoryPrdRemoteDataSource/overview.md)(마지막 수정일:2025-10-12)
-    - [이용 내역](./documents/api/history/history_use_remote_data_source/HistoryUseRemoteDataSource/overview.md)(마지막 수정일:2025-10-12)
+- [상품내역](./documents/api/history/history_prd_remote_data_source/HistoryPrdRemoteDataSource/overview.md)(마지막 수정일:2025-10-17)
 
 - [공지사항](./documents/api/notice/notice_remote_data_source/NoticeRemoteDataSource/overview.md)(마지막 수정일:2025-10-12)
 
@@ -45,6 +43,7 @@
 
 # 남은 작업
 
+
 - 상품 정보 공통으로 사용하도록 변경 예정
     - 상품내역
     - 즐겨찾기
@@ -53,6 +52,7 @@
 - 시스템
     - 버전체크
     - 서버 점검 여부
+    - ...
 
 - 유저 정보
     - 유저(소셜) 정보

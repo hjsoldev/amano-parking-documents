@@ -24,7 +24,4 @@
 
 #### Parameters
 
-- `response`: `dynamic`
-### empty
-
-
+- `content`: `Object?`

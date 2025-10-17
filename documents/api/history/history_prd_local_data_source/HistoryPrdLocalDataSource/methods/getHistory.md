@@ -5,9 +5,10 @@
 
 
 ## Return Type
-`Future<Either<AppException, WrapperDto>>`
+`Future<Either<AppException, WrapperDto<HistoryPrdDto>>>`
 
 ## Parameters
 
+- ``: `dynamic`
 - ``: `dynamic`
 - ``: `dynamic`

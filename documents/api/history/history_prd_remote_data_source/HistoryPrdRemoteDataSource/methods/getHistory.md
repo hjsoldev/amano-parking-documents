@@ -2,7 +2,7 @@
 
 ## Description
 
-# 주차권 구매 내역 요청
+# 상품 내역 요청
 
  ## GET /history/products
 
@@ -12,6 +12,13 @@
   |-|-|-|
   |beginDate|string|시작 날짜|
   |endDate|string|종료 날짜|
+  |status|json_string|상품 상태 배열|
+
+ ### 요청 status 예시
+
+ - 내 상품: ['using', 'wait']
+ - 이용내역: ['complete', 'expired', 'cancel']
+ - 필터 적용(단일값): ['using']
 
  ### 응답 파라미터 설명
 
@@ -31,18 +38,21 @@
   |endDate|string|상품 유효 기간 만료일|
   |purchaseDate|string|구매 일시|
   |status|string|구매 상태 (예: 완료, 취소, 환불 등)|
+  |remainCount|int|남은 차량 변경 횟수|
 
  ### status
- - wait: 대기
+
  - using: 사용중
- - expired: 만료
- - cancel: 취소
- - complete: 완료
+ - wait: 사용대기
+ - complete: 사용완료
+ - expired: 기간만료
+ - cancel: 결제취소
 
 ## Return Type
-`Future<Either<AppException, WrapperDto>>`
+`Future<Either<AppException, WrapperDto<HistoryPrdDto>>>`
 
 ## Parameters
 
+- ``: `dynamic`
 - ``: `dynamic`
 - ``: `dynamic`

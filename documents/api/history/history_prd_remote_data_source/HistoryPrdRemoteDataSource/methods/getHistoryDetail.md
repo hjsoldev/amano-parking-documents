@@ -1,36 +1,36 @@
-# Method: `getHistory`
+# Method: `getHistoryDetail`
 
 ## Description
 
-# 주차권 사용 내역 요청
+# 상품 내역 상세 요청
 
- ## GET /history/uses
+ ## GET /history/products/{id}
 
  ### 요청 파라미터 설명
 
   |이름|타입|설명|
   |-|-|-|
-  |beginDate|string|시작 날짜|
-  |endDate|string|종료 날짜|
+  |id|string|상품 ID|
 
  ### 응답 파라미터 설명
 
   |이름|타입|설명|
   |-|-|-|
-  |id|string|사용 ID|
+  |id|string|상품 ID|
   |plotId|string|주차장 ID|
-  |plotName|string|주차장 이름|
-  |plotAddress|string|주차장 주소|
   |ticketId|string|주차권 ID|
-  |ticketdName|string|주차권 이름(상품명)|
+  |prodName|string|상품명|
+  |plotName|string|지점명|
+  |plotAddress|string|지점 주소|
   |carNumber|string|차량번호|
   |isSubscribed|bool|구독 상품 여부|
   |discount|map_(string, string)|할인 내용|
-  |totalAmount|int|총 주차 요금|
-  |inTime|string|입차 시간|
-  |passedTime|string|주차 시간|
-  |estimateAmount|int|정산 예상 금액|
+  |price|int|상품 단가|
+  |startDate|string|상품 유효 기간 시작일|
+  |endDate|string|상품 유효 기간 만료일|
+  |purchaseDate|string|구매 일시|
   |status|string|구매 상태 (예: 완료, 취소, 환불 등)|
+  |remainCount|int|남은 차량 변경 횟수|
 
  ### status
  - wait: 대기
@@ -40,9 +40,8 @@
  - complete: 완료
 
 ## Return Type
-`Future<Either<AppException, WrapperDto<HistoryUseDto>>>`
+`Future<Either<AppException, WrapperDto<HistoryPrdDto>>>`
 
 ## Parameters
 
-- ``: `dynamic`
 - ``: `dynamic`
