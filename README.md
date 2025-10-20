@@ -34,6 +34,9 @@
 
 - [차량 등록](./documents/api/registered_car/registered_car_remote_data_source/RegisteredCarRemoteDataSource/overview.md)(마지막 수정일:2025-10-14)
 
+- [차량 변경](./documents/api/car_change/car_change_remote_data_source/CarChangeRemoteDataSource/overview.md)(마지막 수정일:2025-10-19)
+    - 상품내역, 이용내역에서 차량 변경 요청
+
 - [프로필 수정](./documents/api/profile_modify/profile_modify_remote_data_source/ProfileModifyRemoteDataSource/overview.md)(마지막 수정일:2025-10-14)
 
 - [알림](./documents/api/notification/notification_remote_data_source/NotificationRemoteDataSource/overview.md)(마지막 수정일:2025-10-15)
@@ -61,8 +64,6 @@
     - 지불(카드)정보
     - 설정 정보
     - 벳지?
-
-- 차량변경
 
 - 카드 관리
     - 카드 목록(유저정보 - 지불정보 참조)

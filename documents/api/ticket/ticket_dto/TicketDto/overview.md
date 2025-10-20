@@ -22,3 +22,9 @@
 #### Parameters
 
 - `json`: `Map<String, dynamic>`
+### fromResponse
+
+
+#### Parameters
+
+- `content`: `Object?`

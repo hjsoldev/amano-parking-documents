@@ -8,9 +8,6 @@
 
 - PlotKeywordDataSource
 
-## Members
-
-- **networkService**: `NetworkService`
 ## Constructors
 
 ### Unnamed Constructor

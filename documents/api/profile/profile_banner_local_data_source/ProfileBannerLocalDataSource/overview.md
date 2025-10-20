@@ -8,9 +8,6 @@
 
 - ProfileBannerDataSource
 
-## Members
-
-- **networkService**: `NetworkService`
 ## Constructors
 
 ### Unnamed Constructor

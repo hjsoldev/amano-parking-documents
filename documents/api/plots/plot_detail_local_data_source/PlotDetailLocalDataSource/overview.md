@@ -8,9 +8,6 @@
 
 - PlotDetailDataSource
 
-## Members
-
-- **networkService**: `NetworkService`
 ## Constructors
 
 ### Unnamed Constructor

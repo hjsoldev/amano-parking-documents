@@ -10,4 +10,4 @@
 ## Parameters
 
 - `id`: `String`
-- `socialType`: `SocialType`
+- `socialType`: `String`

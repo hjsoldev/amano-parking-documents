@@ -27,4 +27,4 @@
 
 #### Parameters
 
-- `content`: `Map<String, dynamic>`
+- `content`: `Object?`
